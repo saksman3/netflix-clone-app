@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+  }
+  .header{
+    background:black;
+    color:white;
+    padding:25px;
+    overflow:auto;
+  
+  }
+  .logo{
+   margin-left:25px;
+   display:inline-block;
+   background:red;
+   padding:10px;
+  
+  }
+  .left-menu{
+    display:inline-block;
+  }
+  .right-menu
+  {
+    display:inline-block;
+    float:right;
+  }
+  .left-menu ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+  }
+  .left-menu ul li{
+    display:inline-block;
+   padding:10px; 
+  }
+  .left-menu ul li a{
+    text-decoration:none;
+    color:white;
+  
+    }
+  .left-menu ul li a:hover{
+    color:red;
+  
+  }
+  
+  
+  
+  /*  */
+  .right-menu ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+  
+  }
+  .right-menu ul li{
+    display:inline-block;
+    margin:10px;
+    
+  }
+  .right-menu ul li a{
+    text-decoration:none;
+    color:white;
+    }
+  .right-menu ul li a:hover{
+    color:red;
+  
+  }
+  /* bg-image */
+  .bg-image{
+   padding:200px 25px;
+    background:-webkit-linear-gradient(45deg, rgb(255,0,0,.3)0%,#000000 100%), url(https://theknackinitiative.files.wordpress.com/2014/03/bane-batman-standoff-the-dark-knight-rises-wall-poster1.jpg) no-repeat left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* description box */
+  .description-box{
+    width: 50%;
+  }
+  .description-box h1{
+    color:white;
+    font-size:50px;
+    margin:0;
+  }
+  .description-box h3{
+    color:white;
+    font-size:25px !important;
+    margin:0 !important;
+    font-weight:300;
+  
+  }
+  .description-box h4{
+    color:white;
+    margin:0;
+  }
+  .description-box p{
+    color:white;
+    font-size:20px;
+    font-weight:100 !important;
+    margin:25px 0 0 0 !important;
+    font-family: sans;
+  
+  }
+  .button1{
+    display:inline-block;
+    border:2px solid black;
+    background:rgba(2, 3, 118, 0.628);
+    cursor:pointer;
+    padding:5px;
+    color:white;
+  }
+  .buttons{
+    margin-top:10px;
+  }
+  .button1:hover{
+    background:yellow;
+    color:black;
+  }
+  .button2{
+    display:inline-block;
+    border:2px solid black;
+    background:black;
+    cursor:pointer;
+    padding:5px;
+    color:white;
+  
+  }
+  .button2:hover{
+    background:yellow;
+    color:black;
+  }
+  /* video box */
+  
+  .video-section{
+    width:100%;
+    background:black;
+  }
+  .row{
+    width:100%;
+    font-size:0;
+  }
+  .video-box{
+    display:inline-block;
+    width:300px;
+    /* border: 1px solid red; */
+    margin:2.5%;
+    height:150px;
+    font-size:16px;
+    color:white;
+    background:red;
+  }
+   .video1{
+     background:url(https://i.pinimg.com/originals/66/24/96/6624960f0062bd8b8845037c6776277c.jpg) no-repeat center left;
+     background-size: cover;
+   }
+   .video2{
+     background:url(https://poster-girl.info/wp-content/uploads/2018/04/horizontal-movie-posters-elegant-panoramic-movie-posters-and-cool-ideas-of-movie-poster-horizontal-13.jpg) no-repeat center left;
+     background-size: cover;
+   }
+   .video3{
+     background:url(https://i.pinimg.com/originals/3c/f4/cf/3cf4cf74674ede94488ee71d7ae04ade.jpg) no-repeat center left;
+     background-size: cover;
+   }
+   .video4{
+     background:url(https://jichangwookkitchen.files.wordpress.com/2017/02/fabcity-poster-horizontal.jpg) no-repeat center left;
+     background-size: cover;
+   }
+   .video5{
+     background:url(http://cdn.collider.com/wp-content/uploads/clash-of-the-titans-movie-poster-3d-3.jpg) no-repeat center left;
+     background-size: cover;
+   }
+   @media screen and (max-width:600px){
+     .video-box{
+       width:95%;
+       margin:2.5%
+       
+     }
+     .video-box h4{
+      font-size:30px;
+      font-weight: 100;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+   }
